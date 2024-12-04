@@ -19,13 +19,10 @@ header {
     text-align: center;
     display: flex;
     width: 90%;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
 }
 
-.header img {
-    height: 70px;
-}
 
 header h1 {
     font-size: 2.5em;
@@ -33,12 +30,13 @@ header h1 {
 
 .quadradinho {
     background-color: white !important;
-    width: 50px;
-    height: 40px;
     position: relative;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .botao-login {
